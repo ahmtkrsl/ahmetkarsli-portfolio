@@ -11,7 +11,21 @@
   </head>
   <body class="bg-[#070707] text-white">
     <div id="root"></div>
+    <noscript>Please enable JavaScript to view this site.</noscript>
+    <script>
+      // Error handling for Safari
+      window.addEventListener('error', function(e) {
+        console.error('Global error:', e.error);
+      });
+      window.addEventListener('unhandledrejection', function(e) {
+        console.error('Unhandled promise rejection:', e.reason);
+      });
+    </script>
     <script type="module" crossorigin src="/src/main.tsx"></script>
+    <script nomodule>
+      // Fallback for browsers that don't support ES modules
+      alert('Your browser does not support ES modules. Please use a modern browser.');
+    </script>
   </body>
 </html>
 

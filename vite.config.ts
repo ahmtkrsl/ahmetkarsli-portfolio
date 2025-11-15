@@ -6,12 +6,17 @@ export default defineConfig({
   base: "/ahmetkarsli-portfolio/",
   plugins: [react()],
   build: {
-    target: ["es2020", "safari14"],
+    target: ["es2015", "safari12"],
     minify: "esbuild",
     cssMinify: true,
+    polyfillModulePreload: true,
     rollupOptions: {
       output: {
         manualChunks: undefined,
+        format: "es",
+        entryFileNames: "assets/[name]-[hash].js",
+        chunkFileNames: "assets/[name]-[hash].js",
+        assetFileNames: "assets/[name]-[hash].[ext]",
       },
     },
   },
