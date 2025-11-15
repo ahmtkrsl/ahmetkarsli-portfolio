@@ -4,7 +4,7 @@ export const profile = {
   location: "Sarıyer · Istanbul · Türkiye",
   availability: "Available for data, AI, and analytics roles",
   summary:
-    "I turn messy operational data into automated intelligence. Through four internships and research with YTU’s AI-BOSS group, I build cloud pipelines, SQL models, BI dashboards, and ML prototypes that make decisions measurable.",
+    "I turn messy operational data into automated intelligence. Through three internships and research with YTU's AI-BOSS group, I build cloud pipelines, SQL models, BI dashboards, and ML prototypes that make decisions measurable.",
   contact: {
     email: "ahmetfkarsli@gmail.com",
     phone: "+90 553 014 22 43",
@@ -13,7 +13,7 @@ export const profile = {
 };
 
 export const metrics = [
-  { label: "Data & product internships", value: "04", subtext: "Across finance, SaaS, and HR" },
+  { label: "Data & product internships", value: "03", subtext: "Across finance and SaaS" },
   { label: "GPA in Industrial Engineering", value: "3.28", subtext: "4th-year standing" },
   { label: "Production analytics stacks", value: "06", subtext: "GCP, BigQuery, SQL, Python, Power BI, Metabase" },
   { label: "Research track", value: "AI-BOSS", subtext: "LLM & ML experimentation since 2024" },
@@ -168,14 +168,6 @@ export const internships = [
     role: "Growth Intern",
     period: "Sep 2024 – Dec 2024",
     focus: "Content strategy, SEO, AI tools for marketing, creative analytics.",
-    year: 2024,
-    isCurrent: false,
-  },
-  {
-    company: "Engin Grup",
-    role: "HR Intern",
-    period: "Aug 2024 – Sep 2024",
-    focus: "Corporate communication, HR process mapping, reporting discipline.",
     year: 2024,
     isCurrent: false,
   },
