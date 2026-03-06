@@ -12,8 +12,8 @@ export function HeroSection() {
             {profile.availability}
           </p>
           <h1 className="text-4xl font-semibold leading-tight md:text-6xl">
-            Data & AI craft for{" "}
-            <span className="text-brand-accent">measurable business impact</span>.
+            Turning raw data into{" "}
+            <span className="text-brand-accent">decisions teams trust</span>.
           </h1>
           <p className="text-lg text-white/70 md:max-w-3xl">{profile.summary}</p>
           <div className="flex flex-wrap items-center gap-3 text-sm text-white/70">
@@ -33,6 +33,14 @@ export function HeroSection() {
               rel="noreferrer"
             >
               LinkedIn
+            </a>
+            <a
+              className="rounded-full border border-white/15 px-4 py-2 hover:border-brand-accent hover:text-brand-accent transition-colors"
+              href={profile.contact.github}
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
             </a>
           </div>
         </div>

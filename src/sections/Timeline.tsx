@@ -10,12 +10,12 @@ export function TimelineSection() {
   });
 
   return (
-    <section className="bg-[#08080C] py-20 text-white">
+    <section id="timeline" className="bg-[#08080C] py-20 text-white">
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading
-          eyebrow="Experience timeline"
-          title="From first internship to today"
-          description="A quick snapshot of where I started, the skills I strengthened, and the team I'm currently powering."
+          eyebrow="Experience & Education"
+          title="Where I've worked and what I've studied"
+          description="Research, internships, and a double-degree path — all pointing toward data-driven decision making."
         />
 
         <div className="mt-16">

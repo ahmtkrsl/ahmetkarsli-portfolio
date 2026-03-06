@@ -2,10 +2,8 @@ import { profile } from "@/data/profile";
 
 const links = [
   { label: "Works", href: "#works" },
-  { label: "Services", href: "#services" },
   { label: "Stacks", href: "#stacks" },
-  { label: "Testimonials", href: "#testimonials" },
-  { label: "Workflow", href: "#workflow" },
+  { label: "Experience", href: "#timeline" },
 ];
 
 export function NavBar() {

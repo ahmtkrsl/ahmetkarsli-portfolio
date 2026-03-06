@@ -1,44 +1,45 @@
 export const profile = {
   name: "Ahmet Furkan Karslı",
-  role: "Data & AI-focused Industrial Engineering Senior",
+  role: "Data Analyst & Scientist",
   location: "Sarıyer · Istanbul · Türkiye",
-  availability: "Available for data, AI, and analytics roles",
+  availability: "Open to data analyst & scientist roles",
   summary:
-    "I turn messy operational data into automated intelligence. Through three internships and research with YTU's AI-BOSS group, I build cloud pipelines, SQL models, BI dashboards, and ML prototypes that make decisions measurable.",
+    "Data analyst with hands-on experience in product analytics, marketing analytics, and applied ML research. I build dashboards and data systems used by C-level and cross-functional teams — from raw data ingestion to business-facing insights.",
   contact: {
     email: "ahmetfkarsli@gmail.com",
     phone: "+90 553 014 22 43",
     linkedin: "https://www.linkedin.com/in/ahmetfkarsli",
+    github: "https://github.com/ahmtkrsl",
   },
 };
 
 export const metrics = [
-  { label: "Data & product internships", value: "03", subtext: "Across finance and SaaS" },
-  { label: "GPA in Industrial Engineering", value: "3.28", subtext: "4th-year standing" },
-  { label: "Production analytics stacks", value: "06", subtext: "GCP, BigQuery, SQL, Python, Power BI, Metabase" },
-  { label: "Research track", value: "AI-BOSS", subtext: "LLM & ML experimentation since 2024" },
+  { label: "Years of experience", value: "2+", subtext: "Internships & full-time across finance, SaaS, research" },
+  { label: "GPA · Industrial Engineering", value: "3.35", subtext: "Yıldız Technical University · Expected 2026" },
+  { label: "Dashboards shipped", value: "10+", subtext: "Metabase, Power BI — used daily by C-level teams" },
+  { label: "ML research track", value: "AI-BOSS", subtext: "Time-series forecasting · LSTM, PatchTST, Chronos-2" },
 ];
 
 export const stacks = [
   {
     title: "Data Platforms",
     description: "Cloud-native data modeling, ingestion, and orchestration.",
-    items: ["Google Cloud Platform", "BigQuery", "Cloud Run", "Metabase"],
+    items: ["Google Cloud Platform", "BigQuery", "Cloud Run", "Google Scheduler", "Metabase"],
   },
   {
     title: "Analytics & BI",
-    description: "End-to-end insights with governed SQL and semantic layers.",
-    items: ["SQL", "Power BI", "Data Cleaning", "Data Transformation"],
+    description: "End-to-end insights from raw SQL to executive-ready dashboards.",
+    items: ["SQL", "PL/SQL", "Power BI", "Cohort Analysis", "Data Visualization"],
   },
   {
     title: "AI & Machine Learning",
-    description: "Prototyping ML solutions with reproducible research practices.",
-    items: ["Python", "Scikit-learn", "TensorFlow", "LLM Prompting"],
+    description: "Applied ML research and production-ready model prototypes.",
+    items: ["Python", "Scikit-learn", "TensorFlow", "LSTM", "Bi-LSTM", "PatchTST", "Chronos-2", "Time Series Forecasting"],
   },
   {
-    title: "Growth & Ops",
-    description: "Experimentation, KPI storytelling, and stakeholder-facing delivery.",
-    items: ["Product Analytics", "CRM Dashboards", "SEO Tooling", "Automation"],
+    title: "Product & Growth Analytics",
+    description: "KPI storytelling and anomaly detection for product and marketing teams.",
+    items: ["Anomaly Detection", "LTV Modeling", "CRM Analytics", "Automation"],
   },
 ];
 
@@ -77,40 +78,40 @@ export const services = [
 
 export const works = [
   {
-    title: "AppNation Mobile Intelligence",
-    category: "Data Intern · 2025 – Present",
+    title: "AppNation — Product & Marketing Analytics",
+    category: "Data Analyst · Jul 2025 – Present",
     description:
-      "Owning Google Cloud and BigQuery data models that centralize mobile KPIs, plus Metabase dashboards that product and growth teams use daily.",
+      "Supporting two app studios across product and marketing analytics. Built Metabase dashboards from scratch for studio-level reporting, used daily by marketing, product, and C-level teams as the primary decision tool.",
     highlights: [
-      "Modeled multi-source app events in BigQuery with cost-aware partitioning.",
-      "Deployed Cloud Run jobs for automated data cleaning and enrichment.",
-      "Published KPI scorecards in Metabase to align product squads.",
+      "Designed and built Metabase dashboards for user behavior and product reporting.",
+      "Built the company’s first anomaly detection system, sending metric alerts to Slack automatically.",
+      "Developed LTV models using cohort analysis and ML to measure campaign efficiency across mobile apps.",
     ],
-    tags: ["BigQuery", "Cloud Run", "Metabase", "Data Modeling"],
+    tags: ["BigQuery", "Metabase", "Anomaly Detection", "LTV Modeling", "Cohort Analysis"],
   },
   {
-    title: "Yapı Kredi CRM Dashboards",
+    title: "Yapı Kredi Bank — CRM Analytics",
     category: "Data Analytics & Visualization Intern · Feb–Jun 2025",
     description:
-      "Built SQL transformations and Power BI dashboards for CRM leadership, enabling finance-ready storytelling around customer actions.",
+      "Worked on large-scale financial datasets within the CRM team. Delivered SQL-driven analyses and Power BI dashboards that made customer data accessible to senior stakeholders.",
     highlights: [
-      "Refined SQL layer powering key relationship KPIs.",
-      "Delivered six Power BI dashboards with drilldowns for strategy teams.",
-      "Standardized data cleaning macros for the wider analytics squad.",
+      "Wrote SQL queries on large-scale financial datasets, independently mapping table structures from documentation.",
+      "Performed customer segmentation analysis focused on credit products.",
+      "Delivered Power BI dashboards with end-to-end flow from raw data processing to visualization.",
     ],
-    tags: ["SQL", "Power BI", "CRM Analytics", "Finance"],
+    tags: ["SQL", "PL/SQL", "Power BI", "CRM Analytics", "Customer Segmentation"],
   },
   {
-    title: "AI-BOSS LLM Research Sprint",
-    category: "Research Group Member · 2024 – Present",
+    title: "AI-BOSS — Multivariate Time Series Forecasting",
+    category: "Research Assistant · Jul 2024 – Present",
     description:
-      "Collaborating with Prof. Dr. Alev Taşkın’s AI-BOSS group on applied ML, deep learning, and LLM studies for industrial engineering problems.",
+      "Applied ML research on Multivariate Time Series forecasting as part of a university research group at Yıldız Technical University, led by a faculty advisor.",
     highlights: [
-      "Co-authored experimentation notebooks covering scikit-learn & TensorFlow baselines.",
-      "Benchmarked large language models for domain-specific question answering.",
-      "Documented reproducible workflows and collaborative research practices.",
+      "Explored deep learning architectures including LSTM, Bi-LSTM, PatchTST, and Chronos-2.",
+      "Covered both academic foundations and practical ML applications over a 2-year collaboration.",
+      "Maintained reproducible experiment notebooks across model benchmarking cycles.",
     ],
-    tags: ["Python", "TensorFlow", "LLMs", "Research"],
+    tags: ["Python", "LSTM", "Bi-LSTM", "PatchTST", "Chronos-2", "Time Series"],
   },
 ];
 
@@ -149,9 +150,9 @@ export const workflow = [
 export const internships = [
   {
     company: "AppNation",
-    role: "Data Intern",
-    period: "Jun 2025 – Present",
-    focus: "Google Cloud data pipelines, BigQuery modeling, Metabase dashboards, BI insights.",
+    role: "Data Analyst",
+    period: "Jul 2025 – Present",
+    focus: "Product & marketing analytics, Metabase dashboards, anomaly detection, LTV modeling.",
     year: 2025,
     isCurrent: true,
   },
@@ -159,25 +160,25 @@ export const internships = [
     company: "Yapı Kredi Bank",
     role: "Data Analytics & Visualization Intern",
     period: "Feb 2025 – Jun 2025",
-    focus: "SQL-driven CRM analytics, Power BI dashboards, strategic data storytelling.",
+    focus: "SQL-driven CRM analytics, customer segmentation, Power BI dashboards.",
     year: 2025,
     isCurrent: false,
   },
   {
-    company: "MDP Group",
-    role: "Growth Intern",
-    period: "Sep 2024 – Dec 2024",
-    focus: "Content strategy, SEO, AI tools for marketing, creative analytics.",
+    company: "YTU AI-BOSS",
+    role: "Research Assistant",
+    period: "Jul 2024 – Present",
+    focus: "Multivariate Time Series forecasting, LSTM/Bi-LSTM/PatchTST/Chronos-2 architectures.",
     year: 2024,
-    isCurrent: false,
+    isCurrent: true,
   },
 ];
 
 export const education = [
   {
     school: "Yıldız Technical University",
-    program: "BSc Industrial Engineering (4th Year)",
-    details: "GPA 3.28 / 4.00 · Expected graduation June 2026 · Lateral transfer from Electronics & Communications Engineering.",
+    program: "BSc Industrial Engineering",
+    details: "GPA 3.35 / 4.00 · 2023 – 2026 · Transferred from Electronic & Communication Engineering (2021–2023).",
   },
   {
     school: "Pertevniyal High School",
